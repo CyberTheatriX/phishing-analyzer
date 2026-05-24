@@ -199,6 +199,20 @@ Block sender domain immediately.
 ```
 ---
 
+## Screenshots
+
+### Web Dashboard
+![Dashboard](screenshots/dashboard1.jpg)
+![Dashboard](screenshots/dashboard2.jpg)
+![Dashboard](screenshots/dashboard3.jpg)
+![Dashboard](screenshots/dashboard4.jpg)
+### Batch Analysis Output
+![Batch Output](screenshots/terminal_batch1.jpg)
+![Batch Output](screenshots/terminal_batch2.jpg)
+### Terminal Analysis
+![Terminal](screenshots/terminal_single_email1.jpg)
+![Terminal](screenshots/terminal_single_email2.jpg)
+
 ## MITRE ATT&CK Coverage
 
 This tool helps identify and document:

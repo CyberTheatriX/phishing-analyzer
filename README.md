@@ -37,7 +37,7 @@ a human-readable output that mirrors how a real SOC analyst thinks.
 ---
 
 ## Architecture
-
+```
 Email File (.eml)
 ↓
 Email Parser        — extracts sender, subject, body, URLs
@@ -49,11 +49,11 @@ AI Analysis         — phi3:mini via Ollama (local, no data leaves machine)
 Report Generator    — structured .txt report saved to /reports
 ↓
 Web Dashboard       — Flask + HTML frontend for live review
-
+```
 ---
 
 ## Tech Stack
-
+```
 | Component | Technology |
 |---|---|
 | Language | Python 3.12 |
@@ -63,11 +63,12 @@ Web Dashboard       — Flask + HTML frontend for live review
 | Pattern Matching | Python `re` library |
 | Frontend | HTML, CSS, JavaScript |
 | Storage | Local filesystem + SQLite-ready |
-
+```
 ---
 
 ## Project Structure
 
+```
 phishing-analyzer/
 ├── analyzer.py          # Core analysis pipeline
 ├── batch.py             # Batch processing engine
@@ -81,7 +82,7 @@ phishing-analyzer/
 ├── reports/             # Generated analysis reports
 └── templates/
 └── index.html       # Web dashboard UI
-
+```
 ---
 
 ## Detection Logic
@@ -143,7 +144,7 @@ ollama pull phi3:mini
 
 **Clone and install dependencies**
 ```bash
-git clone https://github.com/YOUR_USERNAME/phishing-analyzer
+git clone https://github.com/CyberTheatriX/phishing-analyzer
 cd phishing-analyzer
 pip install flask requests
 ```

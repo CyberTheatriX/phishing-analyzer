@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+emails/uploaded_*.eml
+reports/*.txt
+.env
+*.log

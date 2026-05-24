@@ -169,7 +169,7 @@ Open browser at `http://localhost:5000`
 ---
 
 ## Sample Output
-
+```
 ╔══════════════════════════════════════════════════════════════╗
 ║           PHISHING INVESTIGATION REPORT                      ║
 ║           Generated: 2026-05-24 18:06:32                     ║
@@ -196,7 +196,7 @@ Technique:    Credential Harvesting via Urgency Manipulation
 MITRE ATT&CK: T1566.002 — Spearphishing Link
 Action:       Do not click any links. Report to security team.
 Block sender domain immediately.
-
+```
 ---
 
 ## MITRE ATT&CK Coverage
